@@ -41,8 +41,10 @@
 
     writing.onclick=function(){
         let writing_content=document.getElementById('writing_content');
+        let book=document.getElementById('book');
         if(writing_content.style.display=='none'){
             writing_content.style.display='block';
+            book.scrollIntoView();
        }
         else{
             writing_content.style.display='none';
@@ -51,8 +53,10 @@
 
     seo.onclick=function(){
         let seo_content=document.getElementById('seo_content');
+        let site=document.getElementById('site');
         if(seo_content.style.display=='none'){
             seo_content.style.display='block';
+            site.scrollIntoView();
        }
         else{
             seo_content.style.display='none';
