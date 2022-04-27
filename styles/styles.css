@@ -93,11 +93,17 @@
     flex-direction: column;
 }
 
+.col1{
+    display: flex;
+    flex-direction: column;
+}
+
 
 .card{
     border: 1px solid #333;
     height: 100px;
     width: 230px;
+    font-size: 12pt;
 }
 
 .align{
@@ -127,4 +133,50 @@
 .carda{
     text-decoration: none;
     color: #08b;
+}
+
+@media (max-width:950px){
+    .card{
+        width: 100%;
+        height: 80px;
+        font-size: 10pt;
+    }
+
+    .card2{
+        width: 100%;
+        height: fit-content;
+        font-size: 10pt;
+    }
+
+    #cont{
+        width: 100%;
+    }
+
+    #bike{
+        width: 100%;
+    }
+
+    #site{
+        width: 100%;
+    }
+}
+
+@media (max-width:700px){
+    .row1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col1{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card{
+        font-size: 9pt;
+    }
+
+    .card2{
+        font-size: 9pt;
+    }
 }
