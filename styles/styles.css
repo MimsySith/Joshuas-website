@@ -12,7 +12,7 @@
 }
 
 .navdiv{
-    width: 20%;
+    width: 20%; 
 }
 
 .navthing{
@@ -20,6 +20,7 @@
     flex-direction: row;
     width: 100%;
     padding: 15px;
+   
 }
 
 .navlist{
@@ -28,17 +29,16 @@
     list-style: none;
     text-align: center;
     height: 40px;
-    vertical-align: middle;
 }
 
 .nava{
-    vertical-align: middle;
     text-decoration: none;
     color: #fff;
+    vertical-align: middle;
 }
 
 
-.navlist:hover{
+.navdiv:hover{
     background-color: #08b;
     color:#000;
 }
@@ -54,9 +54,8 @@
 }
 
 .head{
-    background-image: url(images/Screenshot.png);
-    width: 400px;
-    height: 282px;
+    width: 100%;
+    height: 382px;
     background-size: cover;
 }
 
