@@ -4,9 +4,14 @@
    let photography=document.getElementById('photography');
    let writing=document.getElementById('writing');
    let seo=document.getElementById('seo');
-   
+   let smedia_content=document.getElementById('smedia_content');
+   let ccreation_content=document.getElementById('ccreation_content');
+   let photography_content=document.getElementById('photography_content');
+   let writing_content=document.getElementById('writing_content');
+   let seo_content=document.getElementById('seo_content');
+
+
    smedia.onclick=function(){
-       let smedia_content=document.getElementById('smedia_content');
        let ad=document.getElementById('ad');
     if(smedia_content.style.display=='none'){
         smedia_content.style.display='block';
@@ -18,9 +23,10 @@
 }
 
     ccreation.onclick=function(){
-        let ccreation_content=document.getElementById('ccreation_content');
+        let cont=document.getElementById('cont');
         if(ccreation_content.style.display=='none'){
             ccreation_content.style.display='block';
+            cont.scrollIntoView();
        }
         else{
             ccreation_content.style.display='none';
@@ -28,7 +34,6 @@
     }
    
     photography.onclick=function(){
-        let photography_content=document.getElementById('photography_content');
         let bike=document.getElementById('bike');
         if(photography_content.style.display=='none'){
             photography_content.style.display='block';
@@ -40,7 +45,6 @@
     }
 
     writing.onclick=function(){
-        let writing_content=document.getElementById('writing_content');
         let book=document.getElementById('book');
         if(writing_content.style.display=='none'){
             writing_content.style.display='block';
@@ -52,7 +56,6 @@
     }
 
     seo.onclick=function(){
-        let seo_content=document.getElementById('seo_content');
         let site=document.getElementById('site');
         if(seo_content.style.display=='none'){
             seo_content.style.display='block';
