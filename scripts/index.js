@@ -10,6 +10,29 @@
    let writing_content=document.getElementById('writing_content');
    let seo_content=document.getElementById('seo_content');
 
+   let menu_icon=document.getElementById('menu');
+   let menu=document.getElementById('menu_div');
+   let navthing=document.getElementById('navthing');
+   let nav=document.getElementById('show');
+   let list=document.getElementById('list')
+   let navbox=document.getElementById('nav')
+
+   if(window.screen.availWidth<=700){
+    menu_icon.style.display='block';
+    list.style.display='none'
+    navbox.style.backgroundColor='#fff'
+
+    menu_icon.onclick=function(){
+        if(menu.style.display=='none'){
+            menu.style.display='block';
+        } else {
+            menu.style.display='none';
+        }
+    }
+} 
+
+
+
 
    smedia.onclick=function(){
        let ad=document.getElementById('ad');
@@ -65,4 +88,10 @@
             seo_content.style.display='none';
         };
     }
-   
+
+
+    
+console.log(window.screen.width)
+
+
+ 
