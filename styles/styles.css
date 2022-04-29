@@ -52,7 +52,7 @@
     flex-direction: row;
     text-align: center;
     float: left;
-    width: fit-content;
+    width: 200px;
 }
 
 .navthing{
