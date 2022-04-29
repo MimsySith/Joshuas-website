@@ -17,13 +17,16 @@
    let list=document.getElementById('list');
    let navbox=document.getElementById('nav');
    let head=document.getElementById('head');
+   let welcome=document.getElementById('welcome');
   
 
    if(window.screen.availWidth<=700){
     menu_icon.style.display='block';
     list.style.display='none';
     navbox.style.backgroundColor='#fff';
-   
+    welcome.style.height='200'
+    welcome.style.width='215'
+
 
     menu_icon.onclick=function(){
         if(menu.style.display=='none'){
