@@ -24,8 +24,8 @@
     menu_icon.style.display='block';
     list.style.display='none';
     navbox.style.backgroundColor='#fff';
-    welcome.style.height='200'
-    welcome.style.width='215'
+    welcome.style.width='200'
+    welcome.style.height='190'
 
 
     menu_icon.onclick=function(){
@@ -36,9 +36,6 @@
         }
     }
 } 
-
-
-
 
    smedia.onclick=function(){
        let ad=document.getElementById('ad');
@@ -94,10 +91,5 @@
             seo_content.style.display='none';
         };
     }
-
-
-    
-console.log(window.screen.width)
-
 
  

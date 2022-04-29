@@ -79,6 +79,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.nava1:hover{
+    color: #08b;
+}
 
 .navdiv:hover{
     background-color: #08b;
