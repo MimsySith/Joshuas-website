@@ -14,13 +14,17 @@
    let menu=document.getElementById('menu_div');
    let navthing=document.getElementById('navthing');
    let nav=document.getElementById('show');
-   let list=document.getElementById('list')
-   let navbox=document.getElementById('nav')
+   let list=document.getElementById('list');
+   let navbox=document.getElementById('nav');
+   let head=document.getElementById('head');
+  
 
    if(window.screen.availWidth<=700){
     menu_icon.style.display='block';
-    list.style.display='none'
-    navbox.style.backgroundColor='#fff'
+    list.style.display='none';
+    navbox.style.backgroundColor='#fff';
+    head.style.alignItems='flex-endx'
+   
 
     menu_icon.onclick=function(){
         if(menu.style.display=='none'){
