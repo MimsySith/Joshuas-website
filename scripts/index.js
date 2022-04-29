@@ -23,7 +23,6 @@
     menu_icon.style.display='block';
     list.style.display='none';
     navbox.style.backgroundColor='#fff';
-    head.style.alignItems='flex-endx'
    
 
     menu_icon.onclick=function(){
