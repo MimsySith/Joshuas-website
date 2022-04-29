@@ -20,7 +20,7 @@
    let welcome=document.getElementById('welcome');
   
 
-   if(window.screen.availWidth<=700){
+   if(window.screen.availWidth<=800){
     menu_icon.style.display='block';
     list.style.display='none';
     navbox.style.backgroundColor='#fff';
