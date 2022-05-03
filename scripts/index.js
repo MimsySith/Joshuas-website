@@ -24,8 +24,7 @@
     menu_icon.style.display='block';
     list.style.display='none';
     navbox.style.backgroundColor='#fff';
-    welcome.style.width='200'
-    welcome.style.height='190'
+    head.style.alignItems='flex-end'
 
 
     menu_icon.onclick=function(){
