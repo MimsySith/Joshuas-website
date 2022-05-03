@@ -254,19 +254,19 @@
     }
 
     .container_two .card .face.face_one{
-        transform: translateX(100px);
+        transform: translateY(100px);
     }
 
     .container_two .card:hover .face.face_one{
-        transform: translateX(0);
+        transform: translateY(0);
     }
 
     .container_two .card .face.face_two{
-        transform: translateX(-100px);
+        transform: translateY(-100px);
     }
 
     .container_two .card:hover .face.face_two{
-        transform: translateX(0);
+        transform: translateY(0);
     }
 
     #cont{
