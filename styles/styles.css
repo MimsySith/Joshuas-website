@@ -47,6 +47,7 @@
     width: 100%; 
     cursor: pointer;
     padding: 15px;
+    border-radius: 20px;
 }
 
 .div-row{
@@ -80,14 +81,17 @@
 }
 
 .nava1:hover{
-    color: #08b;
+    color: #b43dc1;
+    transition: .5s;
 }
 
 .navdiv:hover{
-    background-color: #08b;
-    color:#000;
+    background-color: #000;
+    color:#b43dc1;
     padding: 20px;
-    box-shadow: 10px 10px 10px #888;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px #b43dc1;
+    transition: .5s;
 }
 
 #portpic{
@@ -146,42 +150,90 @@
     flex-direction: column;
 }
 
-
-.card{
-    border: 1px solid #333;
-    height: 100px;
-    width: 230px;
-    font-size: 12pt;
+.container_two{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
-.align{
-    vertical-align: middle;
-    padding:15px;
+.container_two .card{
+    position: relative;
 }
 
-.card:hover{
-    background-color: #333;
-    color: #fff;
-    cursor: pointer;
+.container_two .card .face{
+    width: 100%;
+    height: 200px;
+    transition: .5s;
 }
 
-.card:active{
-    background-color: #08b;
-    color:#000;
+.container_two .card .face.face_one{
+    position: relative;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
 }
 
-.card2{
-    border: 1px solid #999;
-    height: 300px;
-    background-color: #333;
-    width: 230px;
-    color: #fff
+.container_two .card:hover .face.face_one{
+    transform: translateY(0);
+    box-shadow:
+        inset 0 0 60px whitesmoke,
+        inset 20px 0 80px #b43dc1,
+        inset -20px 0 80px rgb(0, 208, 255),
+        inset 20px 0 300px #b43dc1,
+        inset -20px 0 300px rgb(0, 208, 255),
+        0 0 50px #fff,
+        -10px 0 80px #b43dc1,
+        10px 0 80px rgb(0, 208, 255);
 }
 
-.carda{
+.container_two .card .face.face_one .content{
+    transition: .6s;
+    text-align: center;
+}
+
+.container_two .card .face.face_two{
+    position: relative;
+    background: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0,0,0,.8);
+    transform: translateY(-100px);
+}
+
+.container_two .card:hover .face.face_two{
+    transform: translateY(0);
+}
+
+.container_two .card .face.face_two .content{
+    font-size: 10pt;
+}
+
+.container_two .card .face.face_two .content a{
     text-decoration: none;
-    color: #08b;
+    color: black;
+    box-sizing: border-box;
+    outline : 1px dashed #333;
+    padding: 10px;
+    margin: 15px 0 0;
+    display: inline-block;
 }
+
+.container_two .card .face.face_two .content a:hover{
+    background: #333 ;
+    color: whitesmoke; 
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+
+
 
 .small{
     font-size: 9pt;
