@@ -277,7 +277,7 @@
 @media (max-width:800px){
 
     .face{
-        height: 150px;
+        height: 200px;
     }
 
     .menu-icon{
@@ -312,18 +312,7 @@
         transform: translateY(100px);
     }
     
-    .face_one_mobile{
-        transform: translateY(0);
-        box-shadow:
-            inset 0 0 60px whitesmoke,
-            inset 20px 0 80px #b43dc1,
-            inset -20px 0 80px rgb(0, 208, 255),
-            inset 20px 0 300px #b43dc1,
-            inset -20px 0 300px rgb(0, 208, 255),
-            0 0 50px #fff,
-            -10px 0 80px #b43dc1,
-            10px 0 80px rgb(0, 208, 255);
-    }
+    
     
     .container_two .card .face.face_one .content{
         transition: .6s;
@@ -342,9 +331,6 @@
         transform: translateY(-100px);
     }
     
-    .face_two_mobile{
-        transform: translateY(0);
-    }
     
     .container_two .card .face.face_two .content{
         font-size: 10pt;
@@ -365,6 +351,22 @@
         color: whitesmoke; 
         box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
     }
-    
+  
+    .face_one_mobile{
+        transform: translateY(0);
+        box-shadow:
+            inset 0 0 60px whitesmoke,
+            inset 20px 0 80px #b43dc1,
+            inset -20px 0 80px rgb(0, 208, 255),
+            inset 20px 0 300px #b43dc1,
+            inset -20px 0 300px rgb(0, 208, 255),
+            0 0 50px #fff,
+            -10px 0 80px #b43dc1,
+            10px 0 80px rgb(0, 208, 255);
+    }
+
+     .face_two_mobile{
+        transform: translateY(0);
+    } 
 
 }
