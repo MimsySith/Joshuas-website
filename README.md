@@ -1,3 +1,3 @@
 # Initial design of webpage
 
-For Joshua
+For whomever it may concern
