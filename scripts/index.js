@@ -82,6 +82,20 @@
       
 }
  
+const form = document.getElementById('form');
+form.addEventListener('submit', function(ev){
+    ev.preventDefault();
+    const name=form.elements['name'];
+    const email=form.elements['email'];
+    const message=form.elements['message']
+
+    let clientName=name.value;
+    let clientEmail=email.value;
+    let clientMessage=message.value;
+
+    
+
+})
 
 
 
