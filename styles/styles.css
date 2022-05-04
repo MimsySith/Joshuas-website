@@ -10,6 +10,13 @@
     margin-bottom: 20px;
 }
 
+.smallbreak{
+    width: 100%;
+    height: 5px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
 .menu-image{
     background-image: url(../images/icons8-menu-48.png);
     width: 50px;
@@ -45,7 +52,6 @@
 
 .navdiv{
     width: 100%; 
-    cursor: pointer;
     padding: 15px;
     border-radius: 20px;
 }
@@ -211,7 +217,7 @@
     text-decoration: none;
     color: black;
     box-sizing: border-box;
-    outline : 1px dashed #333;
+    outline : 3px solid #08b;
     padding: 10px;
     margin: 15px 0 0;
     display: inline-block;
@@ -236,6 +242,40 @@
     margin: 100px;
     text-align: center;
     display: none;
+}
+
+.formrow{
+    display: flex;
+    flex-direction: row;
+}
+
+.form{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+
+.leftfloat{
+    position: relative;
+    display: flex;
+    width: 60px;
+    height: 1000px;
+    margin-right: 50px;
+    background-color: #08b;
+}
+
+.formlabel{
+    padding: 5px;
+    font-size: 13pt;
+}
+
+.formtext{
+    height: 25px;
+    font-family: "Karla", "Helvetica Neue", helvetica, arial, sans-serif;
+    color:#08b;
+    text-indent: 5px;
+
 }
 
 @media (max-width:1100px){
@@ -338,7 +378,7 @@
         text-decoration: none;
         color: black;
         box-sizing: border-box;
-        outline : 1px dashed #333;
+        outline : 3px solid #08b;
         padding: 5px;
         margin: 15px 0 0;
         display: inline-block;
