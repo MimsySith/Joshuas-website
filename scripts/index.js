@@ -38,70 +38,55 @@
 
     smedia.onclick=function(){
         let ad=document.getElementById('ad');
-        if(smedia.style.transformY=100){
-        smedia.className='face_one_mobile';
-        smedia_content.className='face_two_mobile';
-        ad.scrollIntoView();
+        if(smedia_content.style.transformY=-100){
+            smedia_content.className='face_two_mobile'
+        } else {
+            smedia_content.className!='face_two_mobile'
         }
-        else {
-            smedia.className!='face_one_mobile';
-            smedia_content.className!='face_two_mobile';
-        }
+        
  }
  
      ccreation.onclick=function(){
          let cont=document.getElementById('cont');
-         if(ccreation.style.transformY=100){
-
-         ccreation.className='face_one_mobile';
-         ccreation_content.className='face_two_content';
-         cont.scrollIntoView();
-         } else {
-             ccreation.classname!='face_one_mobile';
-             ccreation_content.className!='face_two_mobile';
-         }
+        if (ccreation_content.style.transformY=-100){
+            ccreation_content.className='face_two_mobile'
+        } else {
+            ccreation_content.className!='face_two_mobile'
+        }
      }
     
      photography.onclick=function(){
          let bike=document.getElementById('bike');
-         if(photography.style.transformY=100){
-         photography.className='face_one_mobile';
-         photography_content.className='face_two_mobile';
-         bike.scrollIntoView();
+         if(photography_content.style.transformY=-100){
+             photography_content.className='face_two_mobile'
          } else {
-             photography.className!='face_one_mobile';
-             photography_content.className!='face_two_content';
+            photography_content.className!='face_two_mobile'
          }
      }
  
      writing.onclick=function(){
          let book=document.getElementById('book');
-         if(writing.style.transformY=100){
-              writing.className='face_one_mobile';
-         writing_content.className='face_two_mobile';
-         book.scrollIntoView(); 
+         if(writing_content.style.transformY=-100){
+             writing_content.className='face_two_mobile'
          } else {
-             writing.className!='face_one_mobile';
-             writing_content!='face_two_mobile';
+             writing_content.className!='face_two_mobile'
          }
        
      }
  
      seo.onclick=function(){
          let site=document.getElementById('site');
-         if(seo.style.transformY=100){
-               seo.className='face_one_mobile';
-         seo_content.className='face_two_mobile';
-         site.scrollIntoView();
+         if(seo_content.style.transformY=-100){
+            seo_content.className='face_two_mobile'
          } else {
-             seo.className!='face_one_mobile';
-             seo_content.className!='face_two_mobile';
+             seo_content.className!='face_two_mobile'
          }
+    }
        
       
-     }
+}
  
-} 
+
 
 
    
