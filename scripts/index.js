@@ -27,7 +27,7 @@
     head.style.alignItems='flex-end'
 
     
-/*
+
     menu_icon.onclick=function(){
         if(menu.style.display=='none'){
             menu.style.display='block';
@@ -38,59 +38,41 @@
 
     smedia.onclick=function(){
         let ad=document.getElementById('ad');
-     if(smedia_content.style.display=='none'){
-         smedia_content.style.display='block';
-         ad.scrollIntoView();
-    }
-     else{
-         smedia_content.style.display='none';
-     };
+        smedia.className='face_one_mobile';
+        smedia_content.className='face_two_mobile';
+        ad.scrollIntoView();
  }
  
      ccreation.onclick=function(){
          let cont=document.getElementById('cont');
-         if(ccreation_content.style.display=='none'){
-             ccreation_content.style.display='block';
-             cont.scrollIntoView();
-        }
-         else{
-             ccreation_content.style.display='none';
-         };
+         ccreation.className='face_one_mobile';
+         ccreation_content.className='face_two_content';
+         cont.scrollIntoView();
      }
     
      photography.onclick=function(){
          let bike=document.getElementById('bike');
-         if(photography_content.style.display=='none'){
-             photography_content.style.display='block';
-             bike.scrollIntoView();
-        }
-         else{
-             photography_content.style.display='none';
-         };
+         photography.className='face_one_mobile';
+         photography_content.className='face_two_mobile';
+         bike.scrollIntoView();
+      
      }
  
      writing.onclick=function(){
          let book=document.getElementById('book');
-         if(writing_content.style.display=='none'){
-             writing_content.style.display='block';
-             book.scrollIntoView();
-        }
-         else{
-             writing_content.style.display='none';
-         };
+         writing.className='face_one_mobile';
+         writing_content.className='face_two_mobile';
+         book.scrollIntoView();
      }
  
      seo.onclick=function(){
          let site=document.getElementById('site');
-         if(seo_content.style.display=='none'){
-             seo_content.style.display='block';
-             site.scrollIntoView();
-        }
-         else{
-             seo_content.style.display='none';
-         };
+         seo.className='face_one_mobile';
+         seo_content.className='face_two_mobile';
+         site.scrollIntoView();
+      
      }
- */
+ 
 } 
 
 
