@@ -37,35 +37,35 @@
     }
 
     smedia.onclick=function(){
-        if(smedia_content.style.transform.translateY==-100){
-            smedia_content.className='face_two_mobile'
+        if(smedia_content.style.transform.translateY==-110){
+            smedia_content.style.transform.translateY=200
         } else {
-            smedia_content.className!='face_two_mobile_2'
+            smedia_content.style.transform.translateY=-110
         }
         
  }
  
      ccreation.onclick=function(){
-        if (ccreation_content.style.transform.translateY==-100){
-            ccreation_content.className='face_two_mobile'
+        if (ccreation_content.style.transform.translateY==-110){
+            ccreation_content.style.transform.translateY=200
         } else {
-            ccreation_content.className='face_two_mobile_2'
+            ccreation_content.style.transform.translateY=-110
         }
      }
     
      photography.onclick=function(){
-         if(photography_content.style.transform.translateY==-100){
-             photography_content.className='face_two_mobile'
+         if(photography_content.style.transform.translateY==-110){
+             photography_content.style.transform.translateY=200
          } else {
-            photography_content.className='face_two_mobile_2'
+            photography_content.style.transform.translateY=-110
          }
      }
  
      writing.onclick=function(){
          if(writing_content.style.transform.translateY==-100){
-             writing_content.className='face_two_mobile'
+             writing_content.style.transform.translateY=200
          } else {
-             writing_content.className='face_two_mobile_2'
+             writing_content.style.transform.translateY=-110
          }
        
      }
@@ -73,7 +73,7 @@
   /*   seo.onclick=function(){
          let site=document.getElementById('site');
          if(seo_content.style.transformY==-100){
-            seo_content.className='face_two_mobile'
+            seo_content.style.transform.translateY=200
          } else {
              seo_content.className='face_two_mobile_2'
          }
