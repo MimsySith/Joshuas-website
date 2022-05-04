@@ -336,6 +336,11 @@ textarea{
 
 @media (max-width:800px){
 
+    .mobile_menu{
+        position: relative;
+        z-index: 1000;
+    }
+
     .face{
         height: 200px;
     }
