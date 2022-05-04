@@ -30,14 +30,20 @@
             <h1 class="text grey">Online contact form: </h1>
         
             <div class="smallbreak"></div>
-           <div class="formrow">
-            <div class="leftfloat"></div>
-            <form class="form" action="#" method="POST">
+            <div class="formrow">
+                <div class="leftfloat"></div>
+                <form class="form" action="#" method="POST">
                
-               <label class="text formlabel" for="name">Name: &Tab; <input class="formtext" type="text" name="name"></label> 
-               <label class="text formlabel" for="email">Email: &Tab; <input class="formtext" type="email" name="email" required>
-            <span class="small text">(this is a required field)</span></label>
-            </form>
+                    <label class="text formlabel" for="name">Name: </label>
+                        <input class="formtext" type="text" name="name"> <br>
+                    <label class="text formlabel" for="email">Email: 
+                        <input class="formtext" type="email" name="email" required></label>
+                            <span class="small text">(this is a required field)</span><br>
+                    <label class="text formlabel" for="message">Your message:</label>
+                        <textarea cols="50" rows="10" name="message"></textarea> <br>
+                    <input type="submit" class="submit">
+                </form>
+            
             </div> 
 
             <script type="text/javascript" src="scripts/index.js"></script>
