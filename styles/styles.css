@@ -58,7 +58,7 @@
 .navdiv{
     width: 100%; 
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .div-row{
@@ -100,7 +100,7 @@
     background-color: #000;
     color:#b43dc1;
     padding: 20px;
-    border-radius: 30px;
+    border-radius: 10px;
     box-shadow: 2px 2px 1px #f5f5f5 inset;
     transition: .5s;
 }
@@ -137,6 +137,10 @@
     margin: 10px;
     margin-bottom: 50px;
     margin-top: 80px;
+}
+
+.content1{
+    color: #fff;
 }
 
 .centre{
@@ -195,9 +199,10 @@
         10px 0 80px rgb(0, 208, 255);
 }
 
-.container_two .card .face.face_one .content{
+.container_two .card .face.face_one .content1{
     transition: .6s;
     text-align: center;
+    color: #fff;
 }
 
 .container_two .card .face.face_two{
