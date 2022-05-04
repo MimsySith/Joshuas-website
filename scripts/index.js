@@ -38,7 +38,7 @@
 
     smedia.onclick=function(){
         let ad=document.getElementById('ad');
-        if(smedia_content.style.transformY=-100){
+        if(smedia_content.style.transformY==-100){
             smedia_content.className='face_two_mobile'
         } else {
             smedia_content.className!='face_two_mobile'
@@ -48,7 +48,7 @@
  
      ccreation.onclick=function(){
          let cont=document.getElementById('cont');
-        if (ccreation_content.style.transformY=-100){
+        if (ccreation_content.style.transformY==-100){
             ccreation_content.className='face_two_mobile'
         } else {
             ccreation_content.className='face_two_mobile_2'
@@ -66,7 +66,7 @@
  
      writing.onclick=function(){
          let book=document.getElementById('book');
-         if(writing_content.style.transformY=-100){
+         if(writing_content.style.transformY==-100){
              writing_content.className='face_two_mobile'
          } else {
              writing_content.className='face_two_mobile_2'
@@ -76,7 +76,7 @@
  
      seo.onclick=function(){
          let site=document.getElementById('site');
-         if(seo_content.style.transformY=-100){
+         if(seo_content.style.transformY==-100){
             seo_content.className='face_two_mobile'
          } else {
              seo_content.className='face_two_mobile_2'

@@ -260,17 +260,6 @@
         transform: translateY(0);
     }
 
-    #cont{
-        width: 100%;
-    }
-
-    #bike{
-        width: 100%;
-    }
-
-    #site{
-        width: 100%;
-    }
 
 }
 
@@ -380,5 +369,7 @@
     .face_two_mobile_2{
         transform: translateY(-100px);
     }
+
+ 
 
 }
