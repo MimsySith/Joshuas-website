@@ -134,21 +134,12 @@
     flex-direction: row;
 }
 
-.row1{
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-}
 
 .col{
     display: flex;
     flex-direction: column;
 }
 
-.col1{
-    display: flex;
-    flex-direction: column;
-}
 
 .container_two{
     position: relative;
@@ -292,5 +283,88 @@
     .menu-icon{
         display: block;
     }
+
+    .container_two{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .container_two .card{
+        position: relative;
+    }
+    
+    .container_two .card .face{
+        width: 100%;
+        height: 180px;
+        transition: .5s;
+    }
+    
+    .container_two .card .face.face_one{
+        position: relative;
+        background-color: #444;
+        display: flex;
+        justify-content: center;
+        align-content:center;
+        align-items: center;
+        z-index: 1;
+        transform: translateY(100px);
+    }
+    
+    .container_two .card:focus .face.face_one{
+        transform: translateY(0);
+        box-shadow:
+            inset 0 0 60px whitesmoke,
+            inset 20px 0 80px #b43dc1,
+            inset -20px 0 80px rgb(0, 208, 255),
+            inset 20px 0 300px #b43dc1,
+            inset -20px 0 300px rgb(0, 208, 255),
+            0 0 50px #fff,
+            -10px 0 80px #b43dc1,
+            10px 0 80px rgb(0, 208, 255);
+    }
+    
+    .container_two .card .face.face_one .content{
+        transition: .6s;
+        text-align: center;
+    }
+    
+    .container_two .card .face.face_two{
+        position: relative;
+        background: #f5f5f5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        box-sizing: border-box;
+        box-shadow: 0 20px 50px rgba(0,0,0,.8);
+        transform: translateY(-100px);
+    }
+    
+    .container_two .card:focus .face.face_two{
+        transform: translateY(0);
+    }
+    
+    .container_two .card .face.face_two .content{
+        font-size: 10pt;
+    }
+    
+    .container_two .card .face.face_two .content a{
+        text-decoration: none;
+        color: black;
+        box-sizing: border-box;
+        outline : 1px dashed #333;
+        padding: 10px;
+        margin: 15px 0 0;
+        display: inline-block;
+    }
+    
+    .container_two .card .face.face_two .content a:hover{
+        background: #333 ;
+        color: whitesmoke; 
+        box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+    }
+    
 
 }

@@ -26,8 +26,8 @@
     navbox.style.backgroundColor='#fff';
     head.style.alignItems='flex-end'
 
-    /*
-
+    
+/*
     menu_icon.onclick=function(){
         if(menu.style.display=='none'){
             menu.style.display='block';
@@ -90,7 +90,7 @@
              seo_content.style.display='none';
          };
      }
-     */
+ */
 } 
 
 
