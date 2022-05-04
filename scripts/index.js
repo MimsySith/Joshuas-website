@@ -51,7 +51,7 @@
         if (ccreation_content.style.transformY=-100){
             ccreation_content.className='face_two_mobile'
         } else {
-            ccreation_content.className!='face_two_mobile'
+            ccreation_content.className='face_two_mobile_2'
         }
      }
     
@@ -60,7 +60,7 @@
          if(photography_content.style.transformY=-100){
              photography_content.className='face_two_mobile'
          } else {
-            photography_content.className!='face_two_mobile'
+            photography_content.className='face_two_mobile_2'
          }
      }
  
@@ -69,7 +69,7 @@
          if(writing_content.style.transformY=-100){
              writing_content.className='face_two_mobile'
          } else {
-             writing_content.className!='face_two_mobile'
+             writing_content.className='face_two_mobile_2'
          }
        
      }
@@ -79,7 +79,7 @@
          if(seo_content.style.transformY=-100){
             seo_content.className='face_two_mobile'
          } else {
-             seo_content.className!='face_two_mobile'
+             seo_content.className='face_two_mobile_2'
          }
     }
        
