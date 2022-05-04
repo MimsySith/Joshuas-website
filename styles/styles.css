@@ -313,6 +313,11 @@
         display: block;
     }
 
+    .leftfloat{
+        width: 10px;
+        height: 700px;
+    }
+
     .container_two{
         position: relative;
         display: flex;
