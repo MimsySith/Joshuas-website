@@ -54,7 +54,7 @@
      }
     
      photography.onclick=function(){
-         if(photography_content.style.transform.translateY=-100){
+         if(photography_content.style.transform.translateY==-100){
              photography_content.className='face_two_mobile'
          } else {
             photography_content.className='face_two_mobile_2'
