@@ -3,17 +3,17 @@
    let ccreation=document.getElementById('ccreation');
    let photography=document.getElementById('photography');
    let writing=document.getElementById('writing');
-   let seo=document.getElementById('seo');
+   //let seo=document.getElementById('seo');
    let smedia_content=document.getElementById('smedia_content');
    let ccreation_content=document.getElementById('ccreation_content');
    let photography_content=document.getElementById('photography_content');
    let writing_content=document.getElementById('writing_content');
-   let seo_content=document.getElementById('seo_content');
+   //let seo_content=document.getElementById('seo_content');
 
    let menu_icon=document.getElementById('menu');
    let menu=document.getElementById('menu_div');
-   let navthing=document.getElementById('navthing');
-   let nav=document.getElementById('show');
+   //let navthing=document.getElementById('navthing');
+   //let nav=document.getElementById('show');
    let list=document.getElementById('list');
    let navbox=document.getElementById('nav');
    let head=document.getElementById('head');
