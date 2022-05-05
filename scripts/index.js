@@ -3,17 +3,17 @@
    let ccreation=document.getElementById('ccreation');
    let photography=document.getElementById('photography');
    let writing=document.getElementById('writing');
-   //let seo=document.getElementById('seo');
+   let seo=document.getElementById('seo');
    let smedia_content=document.getElementById('smedia_content');
    let ccreation_content=document.getElementById('ccreation_content');
    let photography_content=document.getElementById('photography_content');
    let writing_content=document.getElementById('writing_content');
-   //let seo_content=document.getElementById('seo_content');
+   let seo_content=document.getElementById('seo_content');
 
    let menu_icon=document.getElementById('menu');
    let menu=document.getElementById('menu_div');
-   //let navthing=document.getElementById('navthing');
-   //let nav=document.getElementById('show');
+   let navthing=document.getElementById('navthing');
+   let nav=document.getElementById('show');
    let list=document.getElementById('list');
    let navbox=document.getElementById('nav');
    let head=document.getElementById('head');
@@ -70,15 +70,15 @@
        
      }
  
-  /*   seo.onclick=function(){
+    seo.onclick=function(){
          let site=document.getElementById('site');
          if(seo_content.style.transformY==-100){
             seo_content.style.transform.translateY=200
          } else {
-             seo_content.className='face_two_mobile_2'
+             seo_content.transform.translateY=-110
          }
     }
-       */
+       
       
 }
  
